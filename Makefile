@@ -3,7 +3,7 @@ CXX = g++
 CXXFLAGS = -std=c++20 -Wall -Wextra
 
 SRCDIR = src
-SRC = $(SRCDIR)/main.cpp
+SRC = $(SRCDIR)/main.cpp $(SRCDIR)/command.cpp
 
 PREFIX = /usr/local
 BINDIR = $(PREFIX)/bin
